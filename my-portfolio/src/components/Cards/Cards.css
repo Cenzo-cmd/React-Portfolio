@@ -1,21 +1,23 @@
 .cards {
   padding: 4rem;
   background: #fff;
-  /* background-image: url("/img/background1.jpg"); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("background1.jpg");
+  /* background-position: center; */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 h1 {
   text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 .cards-container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  /* max-width: 1120px; */
   width: 90%;
   margin: 0 auto;
 }
@@ -27,6 +29,7 @@ h1 {
 
 .cards-items {
   margin-bottom: 24px;
+  /* display: flex; */
 }
 
 .cards-item {
@@ -40,9 +43,9 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  /* box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17); */
+  /* -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
+  /* filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -95,6 +98,8 @@ h1 {
 
 .cards-item-info {
   padding: 20px 30px 30px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .cards-item-text {
@@ -106,7 +111,7 @@ h1 {
 
 @media only screen and (min-width: 1200px) {
   .content-blog-container {
-    width: 84%;
+    width: 90%;
   }
 }
 

@@ -5,7 +5,6 @@ import Cards from "../Cards/Cards";
 function Portfolio () {
     return (
         <div>
-            <h1>Welcome to my portfolio!</h1>
             <Cards />
         </div>
     )

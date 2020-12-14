@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card({ website, src, text, info}) {
+function Card({ website, src, text, info, technologies }) {
 
 function handleClick(website) {
   return(
@@ -21,7 +21,8 @@ function handleClick(website) {
           </figure>
           <div className='cards-item-info'>
             <h5 className='cards-item-text'>{text}</h5>
-            <p>{info}</p>
+            <p>{info}</p><br></br>
+            <p>{technologies}</p>
           </div>
         </div>
       </li>
