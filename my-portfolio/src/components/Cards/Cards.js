@@ -26,21 +26,21 @@ function Cards() {
           </ul>
           <ul className='cards-items'>
             <Card
-              src='img/React-employee.png'
+              src='/img/React-employee.png'
               text='React Employee Organizer'
               website="https://cenzo-cmd.github.io/React-Employee-Organizer/"
               info="A simple REACT application that makes and API request and stores the response in state."
               technologies="Technologies used: Javascript, REACT, Node.js, Express, Mongo DB, HTML, CSS"
             />
             <Card
-              src='img/burgerApp.png'
+              src='/img/burgerApp.png'
               text='Burger App'
               website="https://afternoon-coast-80718.herokuapp.com/"
               info="A full stack application that can create 'burgers' and consume them base on you click."
               technologies="Technologies used: Javascript, Node.js, Express, MYSQL, Jaws DB, HTML, CSS, Bootstrap"
             />
             <Card
-              src='img/blog.png'
+              src='/img/blog.png'
               text='A Blogs Life'
               website="https://its-a-blogs-life.herokuapp.com/"
               info="A full stack blog application the requires the user to create an account in order to acess the Blog App."
@@ -49,7 +49,7 @@ function Cards() {
           </ul>
           <ul className='cards-items'>
           <Card
-              src='img/weather.png'
+              src='/img/weather.png'
               text='Weather App'
               website="https://cenzo-cmd.github.io/Weather_Forecast_Dashboard/"
               info="A simple Weather App that makes an API call based on what city and renders the forecast base on the response."
