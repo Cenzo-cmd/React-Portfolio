@@ -3,6 +3,7 @@ import "./ContactInput.css";
 
 function ContactInput() {
     return (
+        <div className="wrapper">
         <div className="container mycontainer1">
             
                 <h1>Contact</h1>
@@ -24,6 +25,7 @@ function ContactInput() {
                 <button type="submit" id="submitButton" className="btn btn-primary">Submit</button>
             </form>
             <div id="appendHere"></div>
+        </div>
         </div>
     )
 }

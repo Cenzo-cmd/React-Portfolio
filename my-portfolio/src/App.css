@@ -30,3 +30,39 @@
   color: #fff;
   font-size: 100px; */
 }
+
+.meimg {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.meimg:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.aboutContainer {
+  background-image: url("components/Cards/background1.jpg");
+  height: 100vh;
+  /* z-index: 1; */
+}
+
+.containerabout {
+  background-color: white;
+  /* height: 10rem; */
+  height: auto;
+  width: 75%;
+  border: 1px solid white;
+  /* margin-top: 20px; */
+  /* min-height: 100%; */
+  margin-bottom: -50px;
+}
+
+.aboutH1 {
+  color: black;
+}

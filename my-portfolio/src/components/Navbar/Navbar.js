@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar mt-0'>
         <div className='navbar-container'>
           <Link to='/contact' className='navbar-logo' onClick={closeMobileMenu}>
             VRD 

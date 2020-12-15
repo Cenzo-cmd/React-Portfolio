@@ -21,7 +21,7 @@ function handleClick(website) {
           </figure>
           <div className='cards-item-info'>
             <h5 className='cards-item-text'>{text}</h5>
-            <p>{info}</p><br></br>
+            <p>{info}</p>
             <p>{technologies}</p>
           </div>
         </div>

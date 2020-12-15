@@ -1,3 +1,4 @@
-.mycontainer1 {
-  /* background-image: url("../../../public/img/background1.jpg"); */
+.wrapper {
+  background-image: url("../Cards/background1.jpg");
+  height: 100vh;
 }

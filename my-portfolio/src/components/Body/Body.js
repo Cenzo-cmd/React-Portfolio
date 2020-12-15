@@ -6,6 +6,7 @@ function Body() {
     return (
         <div className="body-container">
             <video src="/video/helloWorld.mp4" autoPlay loop muted />
+
             <h1>Hello World</h1>
 
         </div>
