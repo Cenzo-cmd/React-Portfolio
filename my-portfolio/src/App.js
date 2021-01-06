@@ -7,6 +7,7 @@ import Contact from "./components/pages/Contact";
 import About from "./components/pages/About"
 
 
+
 function App() {
   return (
     <Router>

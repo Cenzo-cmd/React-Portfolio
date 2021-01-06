@@ -13,7 +13,7 @@ function About() {
                 <hr />
                 <article className="row">
                     <div>
-                        <img src={me} className="img-fluid meimg" />
+                        <img src={"/" + me} className="img-fluid meimg" />
                         <p> My name is Vincent Doria Jr. and I was born in Greenwich, CT. I was raised in a very loving family that taught me the importance to be myself, be respectful to others and follow whatever you are passionate about. I have always
                             enjoyed meeting and communicating with new people, this is how I ended up working in different restaurants for over 10 years. I started as a waiter and over time worked up to General Manager of a large restaurant chain called
                             Lemonade. Being a general manager taught me very important life lessons, that to this day help me on a daily basis.</p>

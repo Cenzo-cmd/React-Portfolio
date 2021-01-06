@@ -3,7 +3,7 @@ import './Cards.css';
 import Card from '../Card/Card';
 import blog from "./img/blog.png";
 import budgetTrackerImg from "./img/budgetTracker.png";
-import burger from "./img/burgerApp.png";
+import google from "./img/google.png";
 import employee from "./img/React-employee.png";
 import weather from "./img/weather.png";
 import workout from "./img/workout.png";
@@ -42,11 +42,11 @@ function Cards() {
               technologies="Technologies used: Javascript, REACT, Node.js, Express, Mongo DB, HTML, CSS"
             />
             <Card
-              src={burger}
-              text='Burger App'
-              website="https://afternoon-coast-80718.herokuapp.com/"
-              info="A full stack application that can create 'burgers' and consume them base on you click."
-              technologies="Technologies used: Javascript, Node.js, Express, MYSQL, Jaws DB, HTML, CSS, Bootstrap"
+              src={google}
+              text='Google-Books'
+              website="https://aqueous-dawn-11366.herokuapp.com/"
+              info="A full stack application allows user to search, save and delete books."
+              technologies="Technologies used: Javascript, React Node.js, Express, Mongo, Mongo Atlas, HTML, CSS, Bootstrap"
             />
             <Card
               src={blog}
